@@ -59,3 +59,23 @@ header .nav-bar .nav-list .nav-item a {
 
     color: var(--color-00);
 }
+
+header .nav-bar .mobile-menu-icon {
+    display: none;
+}
+
+header .nav-bar .mobile-menu-icon i {
+    cursor: pointer;
+
+    font-size: 1.5rem;
+
+    color: var(--color-01);
+
+    margin: 10px;
+
+    transition: 300ms all ease;
+}
+
+header .nav-bar .mobile-menu-icon i:hover {
+    transform: scale(1.2);
+}

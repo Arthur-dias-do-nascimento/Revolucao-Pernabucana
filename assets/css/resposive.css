@@ -1,0 +1,29 @@
+@media (max-width: 800px) {
+    header .nav-bar .nav-list {
+        display: none !important;
+    }
+
+    header .nav-bar .mobile-menu-icon {
+        display: block !important;
+    }
+
+    .side-bar.active {
+        animation: moviment_active_side_bar 500ms ease-in forwards;
+    }
+
+    .side-bar.hidden {
+        animation: moviment_hidden_side_bar 500ms ease-in forwards;
+    }
+
+    footer .container article {
+        flex-direction: column;
+    }
+
+    #historia-lideres-revolucao-pernambucana ul li {
+        flex-direction: column;
+    }
+
+    #historia-lideres-revolucao-pernambucana ul li .container-img {
+        max-width: none;
+    }
+}

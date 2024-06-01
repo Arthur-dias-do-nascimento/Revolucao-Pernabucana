@@ -36,7 +36,7 @@
 
     background-color: var(--color-03);
 
-    transition: 500ms all ease-in-out;
+    transition: 300ms all ease-in-out;
 }
 
 #lideres-revolucao-pernambucana section ul li a:hover::after {

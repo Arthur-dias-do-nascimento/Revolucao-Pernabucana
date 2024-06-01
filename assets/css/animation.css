@@ -1,0 +1,19 @@
+@keyframes moviment_active_side_bar {
+    0% {
+        left: -400px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes moviment_hidden_side_bar {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: -400px;
+    }
+}

@@ -41,6 +41,8 @@
 
 #historia-lideres-revolucao-pernambucana ul li .container-img img {
     width: 100%;
+
+    max-width: 200px;
 }
 
 li#domigos-jose-martins {
@@ -58,7 +60,7 @@ li#cruz-cabuga {
         max-width: none !important;
 
         & img {
-            max-width: 500px;
+            max-width: 500px !important;
         }
     }
 }
