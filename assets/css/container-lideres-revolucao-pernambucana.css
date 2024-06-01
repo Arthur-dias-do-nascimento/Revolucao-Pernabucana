@@ -12,6 +12,10 @@
     margin: 25px 8px;
 }
 
+#lideres-revolucao-pernambucana section ul li {
+    text-align: left;
+}
+
 #lideres-revolucao-pernambucana section ul li a {
     font-size: 1.1rem;
     font-size: 400;

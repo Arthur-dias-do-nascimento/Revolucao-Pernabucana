@@ -19,6 +19,12 @@
         flex-direction: column;
     }
 
+    #lideres-revolucao-pernambucana section ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #historia-lideres-revolucao-pernambucana ul li {
         flex-direction: column;
     }
