@@ -21,6 +21,8 @@ footer .container > header p {
     font-weight: 500;
 
     color: var(--color-01);
+
+    text-align: center;
 }
 
 footer .container article {
