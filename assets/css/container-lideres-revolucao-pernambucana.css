@@ -1,0 +1,44 @@
+#lideres-revolucao-pernambucana section ul {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 25px 8px;
+}
+
+#lideres-revolucao-pernambucana section ul li a {
+    font-size: 1.1rem;
+    font-size: 400;
+
+    text-decoration: none;
+
+    color: var(--color-03);
+
+    position: relative;
+}
+
+#lideres-revolucao-pernambucana section ul li a::after {
+    position: absolute;
+
+    content: "";
+
+    width: 0%;
+    height: 1px;
+
+    bottom: 0px;
+    left: 0px;
+
+    background-color: var(--color-03);
+
+    transition: 500ms all ease-in-out;
+}
+
+#lideres-revolucao-pernambucana section ul li a:hover::after {
+    width: 100%;
+}

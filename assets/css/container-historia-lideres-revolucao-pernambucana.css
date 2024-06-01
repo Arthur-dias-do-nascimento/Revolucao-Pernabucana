@@ -1,0 +1,64 @@
+#historia-lideres-revolucao-pernambucana ul {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    margin: 10px 0px;
+
+    list-style-type: none;
+}
+
+#historia-lideres-revolucao-pernambucana ul li {
+    width: 100%;
+
+    max-width: 900px;
+
+    display: flex;
+    gap: 20px;
+}
+
+#historia-lideres-revolucao-pernambucana ul li article {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#historia-lideres-revolucao-pernambucana ul li .container-img {
+    width: 100%;
+
+    max-width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#historia-lideres-revolucao-pernambucana ul li .container-img img {
+    width: 100%;
+}
+
+li#domigos-jose-martins {
+    flex-direction: row;
+}
+
+li#jose-barros-lima {
+    flex-direction: row-reverse;
+}
+
+li#cruz-cabuga {
+    flex-direction: column;
+
+    & .container-img {
+        max-width: none !important;
+
+        & img {
+            max-width: 500px;
+        }
+    }
+}

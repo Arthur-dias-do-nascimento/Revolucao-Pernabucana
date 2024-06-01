@@ -1,0 +1,20 @@
+#revolucao-pernambucana section {
+    margin: 8px;
+}
+
+#revolucao-pernambucana .container-img {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#revolucao-pernambucana .container-img img {
+    width: 100%;
+
+    max-width: 500px;
+
+    border: 3px solid var(--color-00);
+    border-radius: 5px;
+}

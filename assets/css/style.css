@@ -1,0 +1,19 @@
+/* Importação CSS de coisas no geral */
+
+@import url("global.css");
+@import url("reset.css");
+@import url("font.css");
+
+/* Importação CSS dos Elementos HTML */
+
+@import url("body.css");
+@import url("header.css");
+@import url("main.css");
+@import url("section.css");
+@import url("footer.css");
+
+/* Importação CSS dos Conteúdos */
+
+@import url("container-revolucao-pernambucana.css");
+@import url("container-lideres-revolucao-pernambucana.css");
+@import url("container-historia-lideres-revolucao-pernambucana.css");
